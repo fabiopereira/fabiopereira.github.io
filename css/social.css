@@ -46,6 +46,9 @@
 .facebook span {
   background-color: #3B5998;
 }
+.linkedin span {
+  background-color: #0976b4;
+}
 .google-plus span {
   background-color: #db5a3c;
 }
@@ -82,6 +85,9 @@
 .icon-button .icon-facebook {
   color: #3B5998;
 }
+.icon-button .icon-linkedin {
+  color: #0976b4;
+}
 .icon-button .icon-google-plus {
   color: #db5a3c;
 }
@@ -96,6 +102,7 @@
 }
 .icon-button:hover .icon-twitter,
 .icon-button:hover .icon-facebook,
+.icon-button:hover .icon-linkedin,
 .icon-button:hover .icon-rss,
 .icon-button:hover .icon-envelope,
 .icon-button:hover .icon-camera,
@@ -109,6 +116,10 @@
 
 .icon-facebook:before {
   content: "\f09a";
+}
+
+.icon-linkedin:before {
+  content: "\f08c";
 }
 
 .icon-google-plus:before {
