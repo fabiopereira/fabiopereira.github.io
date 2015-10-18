@@ -1800,7 +1800,7 @@ body {
 .postMeta-wrapper--frontpage .postMeta-tagline {
   font-weight: 300;
   letter-spacing: 0.04rem;
-  color: #777777;
+  color: #000;
   text-transform: none;
 }
 
@@ -2106,6 +2106,7 @@ body {
   margin: 1.5rem auto;
   padding-left: 0;
   width: 50%;
+  margin-left: 40%;
 }
 
 .socialAccountList:before,

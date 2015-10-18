@@ -3,27 +3,8 @@
 	<channel>
 		<title>Fabio Pereira</title>
 		<description>description</description>
-		<link>site url</link>
-		<atom:link href="site url/feed.xml" rel="self" type="application/rss+xml" />
-		
-			<item>
-				<title>T&amp;oacute;tiUorquiss</title>
-				
-				
-					<description>&lt;p&gt;Recently my friend Ver&amp;ocirc;nica sent me &lt;a href=&quot;http://exame.abril.com.br/marketing/album-de-fotos/projeto-brinca-com-pronuncia-correta-de-marcas-famosas&quot;&gt;this post&lt;/a&gt; with some funny ways of pronouncing famous brands in Portuguese. I couldn&#39;t resist and created our version for &lt;a href=&quot;http://www.thoughtworks.com&quot;&gt;ThoughtWorks&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; title=&quot;totiuorquiss_logo.png&quot; src=&quot;http://fabiopereira.me/blog/wp-content/uploads/2013/09/totiuorquiss-logo.png&quot; border=&quot;0&quot; alt=&quot;Totiuorquiss logo&quot; width=&quot;600&quot; height=&quot;148&quot; /&gt;&lt;/p&gt;&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; title=&quot;totiuorquiss_br.png&quot; src=&quot;http://fabiopereira.me/blog/wp-content/uploads/2013/09/totiuorquiss-br.png&quot; border=&quot;0&quot; alt=&quot;Totiuorquiss br&quot; width=&quot;600&quot; height=&quot;424&quot; /&gt;&lt;/p&gt;&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/p&gt;
-
-
-</description>
-				
-				<pubDate>Mon, 09 Sep 2013 09:11:55 +0000</pubDate>
-				<link>site url/blog/2013/09/09/totiuorquiss</link>
-				<guid isPermaLink="true">site url/blog/2013/09/09/totiuorquiss</guid>
-			</item>
+		<link>http://www.fabiopereira.me</link>
+		<atom:link href="http://www.fabiopereira.me/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Young Leaders in Recife and US Assistant Secretary of State</title>
@@ -56,8 +37,8 @@
 </description>
 				
 				<pubDate>Sat, 03 Aug 2013 20:36:30 +0000</pubDate>
-				<link>site url/blog/2013/08/03/young-leaders-in-recife-and-us-assistant-secretary-of-state</link>
-				<guid isPermaLink="true">site url/blog/2013/08/03/young-leaders-in-recife-and-us-assistant-secretary-of-state</guid>
+				<link>http://www.fabiopereira.me/blog/2013/08/03/young-leaders-in-recife-and-us-assistant-secretary-of-state</link>
+				<guid isPermaLink="true">http://www.fabiopereira.me/blog/2013/08/03/young-leaders-in-recife-and-us-assistant-secretary-of-state</guid>
 			</item>
 		
 			<item>
@@ -73,8 +54,8 @@
 </description>
 				
 				<pubDate>Thu, 21 Feb 2013 23:56:58 +0000</pubDate>
-				<link>site url/blog/2013/02/21/follow-up-on-retrospective-actions</link>
-				<guid isPermaLink="true">site url/blog/2013/02/21/follow-up-on-retrospective-actions</guid>
+				<link>http://www.fabiopereira.me/blog/2013/02/21/follow-up-on-retrospective-actions</link>
+				<guid isPermaLink="true">http://www.fabiopereira.me/blog/2013/02/21/follow-up-on-retrospective-actions</guid>
 			</item>
 		
 			<item>
@@ -92,8 +73,8 @@
 </description>
 				
 				<pubDate>Wed, 13 Feb 2013 07:57:42 +0000</pubDate>
-				<link>site url/blog/2013/02/13/rss-recife-summer-school</link>
-				<guid isPermaLink="true">site url/blog/2013/02/13/rss-recife-summer-school</guid>
+				<link>http://www.fabiopereira.me/blog/2013/02/13/rss-recife-summer-school</link>
+				<guid isPermaLink="true">http://www.fabiopereira.me/blog/2013/02/13/rss-recife-summer-school</guid>
 			</item>
 		
 			<item>
@@ -139,8 +120,8 @@
 </description>
 				
 				<pubDate>Sun, 18 Mar 2012 06:57:22 +0000</pubDate>
-				<link>site url/blog/2012/03/18/introducing-depth-of-test-dot</link>
-				<guid isPermaLink="true">site url/blog/2012/03/18/introducing-depth-of-test-dot</guid>
+				<link>http://www.fabiopereira.me/blog/2012/03/18/introducing-depth-of-test-dot</link>
+				<guid isPermaLink="true">http://www.fabiopereira.me/blog/2012/03/18/introducing-depth-of-test-dot</guid>
 			</item>
 		
 			<item>
@@ -167,8 +148,8 @@
 </description>
 				
 				<pubDate>Mon, 05 Mar 2012 12:28:18 +0000</pubDate>
-				<link>site url/blog/2012/03/05/testing-pyramid-a-case-study</link>
-				<guid isPermaLink="true">site url/blog/2012/03/05/testing-pyramid-a-case-study</guid>
+				<link>http://www.fabiopereira.me/blog/2012/03/05/testing-pyramid-a-case-study</link>
+				<guid isPermaLink="true">http://www.fabiopereira.me/blog/2012/03/05/testing-pyramid-a-case-study</guid>
 			</item>
 		
 			<item>
@@ -189,8 +170,8 @@ This talk will compare and correlate Dan Ariely&#39;s controlled experiments des
 </description>
 				
 				<pubDate>Sat, 04 Feb 2012 16:09:38 +0000</pubDate>
-				<link>site url/blog/2012/02/04/speaking-at-qcon-beijing</link>
-				<guid isPermaLink="true">site url/blog/2012/02/04/speaking-at-qcon-beijing</guid>
+				<link>http://www.fabiopereira.me/blog/2012/02/04/speaking-at-qcon-beijing</link>
+				<guid isPermaLink="true">http://www.fabiopereira.me/blog/2012/02/04/speaking-at-qcon-beijing</guid>
 			</item>
 		
 			<item>
@@ -212,8 +193,8 @@ Here are the slides with more info and some code samples.&lt;/p&gt;
 </description>
 				
 				<pubDate>Wed, 07 Dec 2011 16:44:53 +0000</pubDate>
-				<link>site url/blog/2011/12/07/javascript-as-a-first-class-language</link>
-				<guid isPermaLink="true">site url/blog/2011/12/07/javascript-as-a-first-class-language</guid>
+				<link>http://www.fabiopereira.me/blog/2011/12/07/javascript-as-a-first-class-language</link>
+				<guid isPermaLink="true">http://www.fabiopereira.me/blog/2011/12/07/javascript-as-a-first-class-language</guid>
 			</item>
 		
 			<item>
@@ -228,8 +209,8 @@ Here are the slides with more info and some code samples.&lt;/p&gt;
 </description>
 				
 				<pubDate>Mon, 07 Nov 2011 15:40:12 +0000</pubDate>
-				<link>site url/blog/2011/11/07/my-echidna-photo-was-selected</link>
-				<guid isPermaLink="true">site url/blog/2011/11/07/my-echidna-photo-was-selected</guid>
+				<link>http://www.fabiopereira.me/blog/2011/11/07/my-echidna-photo-was-selected</link>
+				<guid isPermaLink="true">http://www.fabiopereira.me/blog/2011/11/07/my-echidna-photo-was-selected</guid>
 			</item>
 		
 			<item>
@@ -250,8 +231,31 @@ Here are the slides with more info and some code samples.&lt;/p&gt;
 </description>
 				
 				<pubDate>Mon, 24 Oct 2011 17:08:53 +0000</pubDate>
-				<link>site url/blog/2011/10/24/thoughtworks-brazil-in-joo-pessoa</link>
-				<guid isPermaLink="true">site url/blog/2011/10/24/thoughtworks-brazil-in-joo-pessoa</guid>
+				<link>http://www.fabiopereira.me/blog/2011/10/24/thoughtworks-brazil-in-joo-pessoa</link>
+				<guid isPermaLink="true">http://www.fabiopereira.me/blog/2011/10/24/thoughtworks-brazil-in-joo-pessoa</guid>
+			</item>
+		
+			<item>
+				<title>TW SSC - Deep Sea Fishing</title>
+				
+				
+					<description>&lt;p&gt;Last Sunday (16/Oct) we went on a deep sea fishing trip as part of the SSC &amp;ndash; Sydney Social Club, an &lt;a href=&quot;http://www.thoughtworks.com/&quot;&gt;ThoughtWorks&lt;/a&gt; initiative to help people have fun together&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://picasaweb.google.com/115434109245321932302/TWSSCDeepSeaFishing&quot; target=&quot;_blank&quot;&gt;&lt;img style=&quot;background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px&quot; title=&quot;TW_SSC_Deep_Sea_Fishing-162-Edit-Edit&quot; border=&quot;0&quot; alt=&quot;TW_SSC_Deep_Sea_Fishing-162-Edit-Edit&quot; src=&quot;http://fabiopereira.me/blog/wp-content/uploads/2011/10/tw-ssc-deep-sea-fishing-162-edit-edit1.jpg&quot; width=&quot;584&quot; height=&quot;388&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Camila caught the first fish on the boat&amp;hellip; A tiny little one, but really cute, like her &lt;img style=&quot;border-bottom-style: none; border-left-style: none; border-top-style: none; border-right-style: none&quot; class=&quot;wlEmoticon wlEmoticon-smile&quot; alt=&quot;Smile&quot; src=&quot;http://fabiopereira.me/blog/wp-content/uploads/2011/10/wlemoticon-smile.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://picasaweb.google.com/115434109245321932302/TWSSCDeepSeaFishing&quot; target=&quot;_blank&quot;&gt;&lt;img style=&quot;background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px&quot; title=&quot;TW_SSC_Deep_Sea_Fishing-59&quot; border=&quot;0&quot; alt=&quot;TW_SSC_Deep_Sea_Fishing-59&quot; src=&quot;http://fabiopereira.me/blog/wp-content/uploads/2011/10/tw-ssc-deep-sea-fishing-591.jpg&quot; width=&quot;584&quot; height=&quot;388&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Right after that I started feeling seasick and I threw up 6 times&amp;hellip; It was a horrible experience. I had taken a ginger seasickness tablet, apparently, it doesn&amp;rsquo;t work. When we came back to the harbour I felt much better.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://picasaweb.google.com/115434109245321932302/TWSSCDeepSeaFishing&quot; target=&quot;_blank&quot;&gt;&lt;img style=&quot;background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px&quot; title=&quot;TW_SSC_Deep_Sea_Fishing-84&quot; border=&quot;0&quot; alt=&quot;TW_SSC_Deep_Sea_Fishing-84&quot; src=&quot;http://fabiopereira.me/blog/wp-content/uploads/2011/10/tw-ssc-deep-sea-fishing-841.jpg&quot; width=&quot;584&quot; height=&quot;388&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And that was when we had a lot of fun cooking some bbq and also the fish that we caught.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://picasaweb.google.com/115434109245321932302/TWSSCDeepSeaFishing&quot; target=&quot;_blank&quot;&gt;&lt;img style=&quot;background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px&quot; title=&quot;TW_SSC_Deep_Sea_Fishing-153&quot; border=&quot;0&quot; alt=&quot;TW_SSC_Deep_Sea_Fishing-153&quot; src=&quot;http://fabiopereira.me/blog/wp-content/uploads/2011/10/tw-ssc-deep-sea-fishing-1531.jpg&quot; width=&quot;584&quot; height=&quot;331&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And we had delicious food&amp;hellip; &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://picasaweb.google.com/115434109245321932302/TWSSCDeepSeaFishing&quot; target=&quot;_blank&quot;&gt;&lt;img style=&quot;background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px&quot; title=&quot;TW_SSC_Deep_Sea_Fishing-171&quot; border=&quot;0&quot; alt=&quot;TW_SSC_Deep_Sea_Fishing-171&quot; src=&quot;http://fabiopereira.me/blog/wp-content/uploads/2011/10/tw-ssc-deep-sea-fishing-1711.jpg&quot; width=&quot;584&quot; height=&quot;335&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+
+</description>
+				
+				<pubDate>Tue, 18 Oct 2011 18:09:57 +0000</pubDate>
+				<link>http://www.fabiopereira.me/blog/2011/10/18/tw-ssc-deep-sea-fishing</link>
+				<guid isPermaLink="true">http://www.fabiopereira.me/blog/2011/10/18/tw-ssc-deep-sea-fishing</guid>
 			</item>
 		
 	</channel>
