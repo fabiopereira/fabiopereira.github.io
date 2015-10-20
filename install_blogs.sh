@@ -11,3 +11,5 @@ mkdir blogpt
 cp -rf ../fabiopereirame_jekyll_mickey_blogpt/_site/blogpt .
 cp     ../fabiopereirame_jekyll_mickey_blogpt/_site/index.html blogpt/
 cp -rf ../fabiopereirame_jekyll_mickey_blogpt/wp-content blogpt/
+cp -rf ../fabiopereirame_jekyll_mickey_blogpt/assets/images/hero/ assets/images/hero
+cp -rf ../fabiopereirame_jekyll_mickey_blogpt/assets/images/thumbnail/ assets/images/thumbnail
