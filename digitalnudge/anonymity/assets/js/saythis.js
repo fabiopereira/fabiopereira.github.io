@@ -10,8 +10,17 @@
 	);
 
 	function sayanother() {
-		var newsay = saylist[Math.floor(Math.random()*saylist.length)];
-		$('#saythis').html(newsay);
+		if (saylist.length > 0) {
+			var index = Math.floor(Math.random()*saylist.length)
+			var newsay = saylist[index];
+			saylist.splice(index, 1);
+			$('#saythis').html(newsay);
+		} else {
+			$('#saythisheader').html("Thank you!");
+			$('#saythis').html("You have seen all the quotes.");			
+			$('#sayanother_span').html('');
+		}
+
 	}	
 
 	$('#sayanother').click(sayanother);
