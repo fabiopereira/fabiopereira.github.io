@@ -7,7 +7,7 @@
 		"You have just put your head in the sand and shirked any responsibility. It is incredibly disheartening to work with someone who doesn't take what you are saying seriously and especially doesn't listen.",
 		"I have multiple times marked a candidate as inapt to be a consultant YOU STILL HIRED THEM!! I don't believe this is normal, and I feel disrespected.  Shit people get hired even when we say not to hire them.",
 		"We received bad feedback about you from the team, you will be replaced.",
-		"If you are working in IAG, you will not be able to attend this session, please leave."
+		"If you are working in IAG, you will not be able to attend this session, please leave.",
 		"Also, what exactly do you do? We don't hear from you anymore!"
 	);
 
