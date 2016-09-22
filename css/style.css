@@ -1131,6 +1131,12 @@
 		background-position: top left, center center;
 	}
 
+	#sayhi {
+		background: url('images/overlay.png'), url('../images/contact.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
 /*********************************************************************************/
 /* Work                                                                          */
 /*********************************************************************************/
