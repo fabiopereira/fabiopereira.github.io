@@ -92,12 +92,12 @@
 		margin-bottom: 1em;
 	}
 
-	.has-background {
-		background-color: black
+	.welcometext {
+		text-align: right;
 	}
 
 	.me-highlight {
-		color: rgb(100, 179, 100)
+		color: rgb(230, 43, 30)
 	}
 
 	header {
