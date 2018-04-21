@@ -1493,7 +1493,11 @@
 				}
 
 				ul.social li a.fa-instagram {
-					background-color: #E0D7C8;
+					background-color: #cd2560;
+				}
+
+				ul.social li a.fa-envelope {
+					background-color: #f14336;
 				}
 
 				ul.social li a.fa-foursquare {
