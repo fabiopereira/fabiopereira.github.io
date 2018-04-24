@@ -1045,7 +1045,7 @@
 
 /* Signup Form */
 
-	#signup-form {
+	form {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -1053,40 +1053,40 @@
 		position: relative;
 	}
 
-		#signup-form input[type="text"],
-		#signup-form input[type="password"],
-		#signup-form input[type="email"] {
+		input[type="text"],
+		input[type="password"],
+		input[type="email"] {
 			width: 18em;
 		}
 
-		#signup-form > * {
+		form > * {
 			margin: 0 0 0 1em;
 		}
 
-		#signup-form > :first-child {
+		form > :first-child {
 			margin: 0 0 0 0;
 		}
 
 		@media screen and (max-width: 480px) {
 
-			#signup-form {
+			form {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
 				flex-direction: column;
 			}
 
-				#signup-form input[type="type"],
-				#signup-form input[type="password"],
-				#signup-form input[type="email"] {
+				form input[type="type"],
+				form input[type="password"],
+				form input[type="email"] {
 					width: 100%;
 				}
 
-				#signup-form > * {
+				form > * {
 					margin: 1.25em 0 0 0;
 				}
 
-				#signup-form .message {
+				form .message {
 					bottom: -1.5em;
 					font-size: 0.9em;
 					height: 1em;
