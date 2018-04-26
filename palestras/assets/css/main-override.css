@@ -9,28 +9,7 @@
 
 /* Reset */
 
-	#textoPromocao {
-		width: 50%;
-	}
-
-	#book-top {
-		border-radius: 0 !important;
-	}
-
-
-	#oqestaofalando img {
-		border-radius: 50%;
-		text-align: center;
-	}
-
-	#oqestaofalando p {
-		 font-style: italic;
-	}	
-
-	#sayhi img {
-		width: 30%
-	}
-
-	#sayhi h3 {
-		font-style: italic !important;
-	}	
+.tedx {
+	color: #E62B1E;
+	font-family: Helvetica;
+}
