@@ -1648,6 +1648,20 @@
 
 /* Nav */
 
+	#nav .highlight {
+		background-color: #2785c4;
+	}
+
+	#nav #en {
+		background-color: #0a0758;
+		color: #e50007;
+	}
+
+	#nav #br {
+		background-color: #009b3a;
+		color: #fedf00;
+	}
+
 	#nav {
 		background-color: #282828;
 		text-align: center;
