@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link type="text/plain" rel="author" href="http://www.fabiopereira.me/humans.txt" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Optimized for search engines -->
+  <meta name="description" content="Why do we need more than a build light?I'm really impressed and happy with how Continuous Integration (CI) has been widely used and accepted by many companie...">
+
+  
+
+  <link rel="canonical" href="http://www.fabiopereira.me/blog/2009/12/14/build-dashboard-radiator-your-build-light-2">
+
+  
+    <link rel="next" href="http://www.fabiopereira.me/blog/2009/12/20/back-to-the-future-tdd" title="Back to the future TDD">
+  
+
+  
+    <link rel="prev" href="http://www.fabiopereira.me/blog/2009/12/06/build-dashboard-radiator-your-build-light" title="Build Dashboard Radiator - (Old post, click below for new)">
+  
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@fabiopereira">
+  <meta name="twitter:creator" content="@fabiopereira">
+  <meta name="twitter:title" content="Build Dashboard Radiator - Your Build Light ++">
+  <meta name="twitter:description" content="Why do we need more than a build light?I'm really impressed and happy with how Continuous Integration (CI) has been widely used and accepted by many companie...">
+  <meta name="twitter:image" content="http://www.fabiopereira.me/your site icon path">
+  <meta name="twitter:url" content="http://www.fabiopereira.me/blog/2009/12/14/build-dashboard-radiator-your-build-light-2">
+
+  <!-- Open graph -->
+  <meta property="og:title" content="Build Dashboard Radiator - Your Build Light ++">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://www.fabiopereira.me/blog/2009/12/14/build-dashboard-radiator-your-build-light-2">
+  <meta property="og:image" content="http://www.fabiopereira.me/your site icon path">
+  <meta property="og:description" content="Why do we need more than a build light?I'm really impressed and happy with how Continuous Integration (CI) has been widely used and accepted by many companie...">
+  <meta property="og:site_name" content="Fabio Pereira">
+  <meta property="og:locale" content="en_us">
+
+  
+    <meta property="article:modified_time" content="2009-12-14T18:00:51+00:00">
+    <meta property="article:published_time" content="2009-12-14T18:00:51+00:00">
+    <meta property="article:author" content="https://www.facebook.com/fabiopereira.me">
+    
+      <meta property="og:see_also" content="http://www.fabiopereira.me/blog/2013/08/03/young-leaders-in-recife-and-us-assistant-secretary-of-state">
+    
+      <meta property="og:see_also" content="http://www.fabiopereira.me/blog/2013/02/21/follow-up-on-retrospective-actions">
+    
+      <meta property="og:see_also" content="http://www.fabiopereira.me/blog/2013/02/13/rss-recife-summer-school">
+    
+  
+
+  
+    
+    <meta property="article:section" content="technical">
+    
+  
+
+  
+    
+  
+
+  <meta property="fb:admins" content="your facebook profile id">
+  <meta property="fb:app_id" content="your facebook app id">
+
+  <title>
+    
+      Build Dashboard Radiator - Your Build Light ++ &middot; Fabio Pereira
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  
+
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro:700,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+
+  <!-- modernizer -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <![endif]-->
+
+  <!--[if (gte IE 6)&(lte IE 8)]>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+  <![endif]-->
+</head>
+
+
+  <body>
+    
+      <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+      <nav role="navigation" class="sidebar sidebar--right">
+  <a href="/" class="textLogo textLogo--white textLogo--sidebar">Fabio Pereira</a>
+  <ul class="sidebar-recentPosts">
+    
+      
+      <li>
+        
+          <a href="/blog/2013/08/03/young-leaders-in-recife-and-us-assistant-secretary-of-state" class="sidebar-recentPosts-image-wrapper">
+            <img src="/assets/images/thumbnail/young-leaders-in-recife-and-us-assistant-secretary-of-state.jpg" style="" alt="">
+          </a>
+        
+        <a href="/blog/2013/08/03/young-leaders-in-recife-and-us-assistant-secretary-of-state">Young Leaders in Recife and US Assistant Secretary of State</a>
+        <div class="postMeta">03 Aug 2013</div>
+      </li>
+      
+    
+      
+      <li>
+        
+          <a href="/blog/2013/02/21/follow-up-on-retrospective-actions" class="sidebar-recentPosts-image-wrapper">
+            <img src="/assets/images/thumbnail/follow-up-on-retrospective-actions.jpg" style="" alt="">
+          </a>
+        
+        <a href="/blog/2013/02/21/follow-up-on-retrospective-actions">Follow Up on Retrospective Actions </a>
+        <div class="postMeta">21 Feb 2013</div>
+      </li>
+      
+    
+      
+      <li>
+        
+          <a href="/blog/2013/02/13/rss-recife-summer-school" class="sidebar-recentPosts-image-wrapper">
+            <img src="/assets/images/thumbnail/rss-recife-summer-school.png" style="" alt="">
+          </a>
+        
+        <a href="/blog/2013/02/13/rss-recife-summer-school">RSS Recife Summer School</a>
+        <div class="postMeta">13 Feb 2013</div>
+      </li>
+      
+    
+      
+      <li>
+        
+        <a href="/blog/2012/03/18/introducing-depth-of-test-dot">Introducing Depth of Test (DOT)</a>
+        <div class="postMeta">18 Mar 2012</div>
+      </li>
+      
+    
+      
+      <li>
+        
+        <a href="/blog/2012/03/05/testing-pyramid-a-case-study">Testing Pyramid - A Case Study</a>
+        <div class="postMeta">05 Mar 2012</div>
+      </li>
+      
+    
+      
+      <li>
+        
+        <a href="/blog/2012/02/04/speaking-at-qcon-beijing">Speaking at QCon Beijing</a>
+        <div class="postMeta">04 Feb 2012</div>
+      </li>
+      
+    
+      
+      <li>
+        
+        <a href="/blog/2011/12/07/javascript-as-a-first-class-language">JavaScript as a First Class Language</a>
+        <div class="postMeta">07 Dec 2011</div>
+      </li>
+      
+    
+      
+      <li>
+        
+        <a href="/blog/2011/11/07/my-echidna-photo-was-selected">My Echidna photo was selected</a>
+        <div class="postMeta">07 Nov 2011</div>
+      </li>
+      
+    
+      
+      <li>
+        
+        <a href="/blog/2011/10/24/thoughtworks-brazil-in-joo-pessoa">ThoughtWorks Brazil in Jo&atilde;o Pessoa</a>
+        <div class="postMeta">24 Oct 2011</div>
+      </li>
+      
+    
+      
+      <li>
+        
+        <a href="/blog/2011/10/18/tw-ssc-deep-sea-fishing">TW SSC - Deep Sea Fishing</a>
+        <div class="postMeta">18 Oct 2011</div>
+      </li>
+      
+    
+  </ul>
+</nav>
+
+      <nav class="menuWrapper">
+  <ul class="popover popover--menu">
+    <li class="menu-avatar">
+      <a href="/" class="brandLogo brandLogo--small
+      
+      ">Fabio Pereira</a>
+      <ul class="list list--avatarMenu hidden">
+        <li class="list-item"><a href="">Twitter</a></li>
+        <li class="list-item"><a href="">LinkedIn</a></li>
+        <li class="list-item"><a href="">Quora</a></li>
+        <li class="list-item"><a href="">Dribbble</a></li>
+        <li class="list-item"><a href="">Kiva</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+    
+
+    <article class="postWrapper">
+  <section class="section--first is-darkBackgrounded u-table">
+    <div class="section-backgroundImage">
+
+      
+
+    </div>
+    <div class="section-gradient
+    
+    "></div>
+    <div class="section-title is-darkBackgrounded u-tableCell u-verticalAlignMiddle">
+      <div class="container">
+        <h2>Build Dashboard Radiator - Your Build Light ++</h2>
+        <div class="postMeta-wrapper">
+          <ul class="postMeta">
+            <li class="postMeta-datetime">
+              <time datetime="2009-12-14 18:00:51 +0000">
+                14 Dec 2009
+              </time>
+            </li>
+            <li class="postMeta-author">
+              By Fabio Pereira
+            </li>
+            <li class="postMeta-tags">
+              technical
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section--last">
+    <div class="container container--content">
+      <div class="content-body">
+
+        <p><strong>Why do we need more than a build light?</strong></p>
+<p>I'm really impressed and happy with how <a href="http://martinfowler.com/articles/continuousIntegration.html" target="_blank">Continuous Integration (CI)</a> has been widely used and accepted by many companies lately. However, sometimes the CI build is placed <a href="http://jchyip.blogspot.com/2009/01/lean-software-development-on-radiators.html" target="_blank">in the refrigerator</a> where it just breaks and no one notices for many reasons, perhaps because people usually receive an e-mail notification that gets ignored or even moved to a folder that is never read. In order for us to gain as much as possible from what CI brings to us the CI build results have to be visible as a <a href="http://jchyip.blogspot.com/2009/01/lean-software-development-on-radiators.html" target="_blank">radiator</a>. One of the ways of making CI results visible is by using a <a href="http://dgtlmoon.com/tweaking_an_agile_development_build_light_indicator" target="_blank">build</a> <a href="http://www.delcomproducts.com/productdetails.asp?productnum=804005" target="_blank">light</a>, which can go <strong><span style="color: #00ff00;">green </span></strong>or <span style="color: #ff0000;"><strong>red </strong></span>depending on the results of the build. What we have noticed on our current project is that the colour of the light would not be enough information to be visible to the team. Our smart colleague <a href="http://www.linkedin.com/in/davidyeung" target="_blank">Dave Yeung</a> created a <em>Build Dashboard Radiator</em> for us.</p>
+<p><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="CI Build Light VS CI Dashboard Radiator" src="http://fabiopereira.me/blog/wp-content/uploads/2009/12/cibuildlightvscidashboardradiator.png" border="0" alt="CI Build Light VS CI Dashboard Radiator" width="631" height="247" /></p>
+<p align="center"></p></p>
+<p><strong>What else do I get from a Build Dashboard Radiator? </strong></p>
+<p>Ideally it should provide you with more information than just whether or not the build has passed. It can, and should, be customised for each project. For example:</p>
+<ul>
+<li>Build time</li>
+<li>How many tests failed</li>
+<li>If you have different builds you should be able to know which one failed</li>
+<li>Different test environments that can go up and down and you want to keep track of</li><br />
+</ul><br />
+<strong></strong></p>
+<p><strong>Implementation for Hudson</strong></p>
+<p>The concept of a Build Dashboard Radiator can be accomplished for any CI Server such as <a href="http://www.thoughtworks-studios.com/cruise-release-management" target="_blank">Cruise</a>, <a href="http://hudson-ci.org/" target="_blank">Hudson</a> or <a href="http://www.jetbrains.com/teamcity/" target="_blank">TeamCity</a>. <a href="http://www.linkedin.com/in/davidyeung" target="_blank">Dave</a>&rsquo;s implementation works for <a href="http://hudson-ci.org/" target="_blank">Hudson</a>. This implementation requires <a href="https://addons.mozilla.org/en-US/firefox/addon/748" target="_blank">Grease Monkey</a> so that we can use <a href="http://wiki.greasespot.net/GM_xmlhttpRequest" target="_blank">GM_xmlhttpRequest</a> which allows us to do asynchronous http request to our Hudson server. With this implementation we managed to keep track of Hudson&rsquo;s builds, including its time and also our stage environments. If you follow the a step by step tutorial below to install our Hudson implementation you will be able to keep track of <strong>Hudson Builds</strong> and <strong>Environment Availability</strong>. This is the result page of our examples file inside the tutorial pack. It shows 2 builds and 2 environments.</p>
+<p><strong><img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="ci-build-dashboard-radiator-examples" src="http://fabiopereira.me/blog/wp-content/uploads/2009/12/cibuilddashboardradiatorexamples.png" border="0" alt="ci-build-dashboard-radiator-examples" width="436" height="355" /></strong></p>
+<p><strong>Hudson&rsquo;s Builds:</strong></p>
+<p>You can add as many Hudson builds as you want to your dashboard in a declarative html way: <img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="Build-Dashboard-Radiator---Build-Example" src="http://fabiopereira.me/blog/wp-content/uploads/2009/12/builddashboardradiatorbuildexample.png" border="0" alt="Build-Dashboard-Radiator---Build-Example" width="587" height="339" /> As you can see, you can also make sure that your build time does not exceed a particular time that you can define using:</p>
+<p align="center"><em><span class="expectedDuration"><strong>12</strong></span> minutes</span></em></p></p>
+<p>Exceeding the expected duration represents a kind of build failure that you can see from the dashboard and act on it ASAP.</p>
+<p><strong>Environment Availability:</strong></p>
+<p>If you are developing a web application, you might have multiple environments that you want to make sure are available, such as Integration, UAT and even Production. We use the dashboard to get to know as soon as possible if one of these environments is offline: <img style="border-right-width: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto" title="ci-build-dashboard-radiator-env-examples" src="http://fabiopereira.me/blog/wp-content/uploads/2009/12/cibuilddashboardradiatorenvexamples.png" border="0" alt="ci-build-dashboard-radiator-env-examples" width="549" height="549" /> What this does is basically ping the page from the href and check if the http response is 200 (success). Simplicity! :)</p>
+<p><strong>Step by step tutorial and <a href="https://github.com/creade/Radiatr" target="_blank">Code</a></strong></p>
+<ul>
+<li>Install <a href="http://www.mozilla-europe.org/en/firefox/" target="_blank">Firefox</a> and <a href="https://addons.mozilla.org/en-US/firefox/addon/748" target="_blank">Grease Monkey</a> plug-in</li>
+<li>This is the reason why I unpublished this post and I am publishing it again now. The new grease monkey does not allow by default the interception of local files. To enable that you have to open firefox config page with <a href="about:config" target="_blank">about:config</a> and change the property <strong>greasemonkey.fileIsGreaseable</strong> to <strong>true</strong>. <a href="http://fabiopereira.me/blog/2009/12/06/build-dashboard-radiator-your-build-light/" target="_blank">This image</a> might help</li>
+<li>Download the code from&nbsp;<a href="https://github.com/creade/Radiatr">github.com/creade/Radiatr</a></li>
+<li>Drag and drop grease monkey script (file build-dashboard-radiator.user.js) to your Firefox. Grease monkey will attempt to install it, confirm the installation. IMPORTANT! You have to drag and drop the file in order for Grease Monkey to install it properly. Do not use the normal Grease Monkey installation process, which is via the plug-in install button.</li>
+<li>Open the example file (build-dashboard-radiator-examples.html)</li>
+<li>You can change the examples and the css files to your needs.</li><br />
+</ul><br />
+I hope it&rsquo;s as useful for you guys as it has been for us so far&hellip;</p>
+<p>Thanks again <a href="http://www.linkedin.com/in/davidyeung" target="_blank">Dave</a>.</p>
+
+
+      </div>
+    </div>
+    <hr class="u-clearHr"/>
+    <hr class="u-clearHr"/>
+    <hr/>
+    <div class="container container--content">
+      <div class="content-body">
+        
+        <div class="content-comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES * * */
+      var disqus_shortname = 'fabiopereirame';
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+
+      </div>
+    </div>
+  </section>
+  <footer class="postFooter">
+    
+      <section class="section--prePost is-darkBackgrounded u-table">
+        <div class="section-backgroundImage section-backgroundImage--previousPage">
+          <img class="post-featuredImage"
+          
+          style="top:0" alt="">
+        </div>
+        <div class="section-gradient
+        
+        "></div>
+        <div class="section-title u-tableCell u-verticalAlignMiddle">
+          <div class="container">
+            <h4>Next story:</h4>
+            <a class="prev" href="/blog/2009/12/06/build-dashboard-radiator-your-build-light">
+              <h2>Build Dashboard Radiator - (Old post, click below for new)</h2>
+            </a>
+          </div>
+        </div>
+      </section>
+    
+  </footer>
+</article>
+
+<div class="modal-toggle-group animate scaleIn">
+  <div class="modal-toggle-bubbleShadow"></div>
+  <div class="modal-toggle-bubble"></div>
+  <div class="modal-toggle-wrapper"></div>
+  <div class="modal-toggle-close-wrapper">
+    <div class="modal-toggle-close"></div>
+  </div>
+</div>
+
+<div class="fullscreenModal u-table">
+  <div class="u-tableCell u-verticalAlignMiddle">
+    <h2 class="h2--shareTitle">Share this story</h2>
+    <ul class="shareWrapper">
+      <li><a class="shareButton shareButton--twitter" href="https://twitter.com/intent/tweet?text=Build Dashboard Radiator - Your Build Light ++ by @VincentChan&url=http%3A%2F%2Fwww.fabiopereira.me%2Fblog%2F2009%2F12%2F14%2Fbuild-dashboard-radiator-your-build-light-2" target="_blank"></a></li>
+      <li><a class="shareButton shareButton--facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.fabiopereira.me%2Fblog%2F2009%2F12%2F14%2Fbuild-dashboard-radiator-your-build-light-2" target="_blank"></a></li>
+      <li><a class="shareButton shareButton--linkedin" href="https://www.linkedin.com/shareArticle
+?mini=true&url=http%3A%2F%2Fwww.fabiopereira.me%2Fblog%2F2009%2F12%2F14%2Fbuild-dashboard-radiator-your-build-light-2&title=Build Dashboard Radiator - Your Build Light ++"  target="_blank"></a></li>
+      <li><a class="shareButton shareButton--buffer" href="https://buffer.com/add?text=Build Dashboard Radiator - Your Build Light ++ by @VincentChan&url=http%3A%2F%2Fwww.fabiopereira.me%2Fblog%2F2009%2F12%2F14%2Fbuild-dashboard-radiator-your-build-light-2" target="_blank"></a></li>
+      <li><a class="shareButton shareButton--hackernews" href="http://news.ycombinator.com/submitlink?u=http%3A%2F%2Fwww.fabiopereira.me%2Fblog%2F2009%2F12%2F14%2Fbuild-dashboard-radiator-your-build-light-2&t=Build Dashboard Radiator - Your Build Light ++" target="_blank"></a></li>
+      <li><a class="shareButton shareButton--pocket" href="https://getpocket.com/save?url=http%3A%2F%2Fwww.fabiopereira.me%2Fblog%2F2009%2F12%2F14%2Fbuild-dashboard-radiator-your-build-light-2&title=Build Dashboard Radiator - Your Build Light ++" target="_blank"></a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+      <label for="sidebar-checkbox" class="sidebar-toggle-wrapper">
+  <div class="sidebar-toggle"></div>
+</label>
+
+    
+
+    
+
+    <!-- Javascript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/assets/javascripts/imagesloaded.pkgd.min.js"></script>
+
+
+
+<script>
+  $(document).ready(function(){
+
+    // Featured image loaded behavior
+    $('.section-backgroundImage img').imagesLoaded()
+      .done( function( instance ) {
+        $('.post-featuredImage').addClass('is-loaded');
+      });
+
+    // Modal toggle behavior
+    $('.modal-toggle-wrapper').click(function() {
+    	$(this).toggleClass('active');
+      $('.modal-toggle-bubble').toggleClass('active');
+    	$('.modal-toggle-bubbleShadow').toggleClass('active');
+      $('.modal-toggle-close-wrapper').toggleClass('active');
+      $('.fullscreenModal').toggleClass('active');
+    });
+
+    // Prevent default anchor event and make a share popup
+    $.fn.sharePopup = function (e, intWidth, intHeight, blnResize) {
+
+      e.preventDefault();
+      intWidth = intWidth || '750';
+      intHeight = intHeight || '500';
+      strResize = (blnResize ? 'yes' : 'no');
+
+      //// Set title and open popup with focus on it
+      var strTitle = ((typeof this.attr('title') !== 'undefined') ? this.attr('title') : 'Social Share'),
+          strParam = 'width=' + intWidth + ',height=' + intHeight + ',resizable=' + strResize,
+          objWindow = window.open(this.attr('href'), strTitle, strParam).focus();
+    }
+
+    $('.shareButton').on("click", function(e) {
+      $(this).sharePopup(e);
+    });
+  });
+
+  // Show modal toggle after scrolling 300px
+  $(document).scroll(function() {
+    $('.modal-toggle-group').toggleClass('active', $(document).scrollTop() >= 300);
+  });
+</script>
+
+    		   <!-- Google Analytics -->
+			<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			try {
+			var pageTracker = _gat._getTracker("UA-6557327-3");
+			pageTracker._trackPageview();
+			} catch(err) {}
+			</script>
+			<!-- Google Analytics -->
+
+  </body>
+</html>

@@ -1,0 +1,2 @@
+curl http://fabiopereira.me/blog/2011/10/19/tw-ssc-deep-sea-fishing/ -s -f -o /dev/null || echo "FAIL tw-ssc-deep-sea-fishing"
+curl http://fabiopereira.me/blog/2010/11/02/thoughtferret-thoughtworks-android-competition-winner-app/ -s -f -o /dev/null || echo "FAIL http://fabiopereira.me/blog/2010/11/02/thoughtferret-thoughtworks-android-competition-winner-app/"
