@@ -9,6 +9,10 @@
 
 /* Reset */
 
+	.atividades_lista {
+		text-align: left;
+	}
+
 	#book-top {
 		border-radius: 0 !important;
 	}
