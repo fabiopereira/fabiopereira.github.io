@@ -259,7 +259,7 @@ body.chrome *, body.android * {
   line-height: 40px;
   text-align: center;
   text-shadow: 0px -1px #000;
-  x-background-image: -webkit-gradient(linear, left top, left bottom, from(#aaa), color-stop(0.05, #888), color-stop(0.5, #555), color-stop(0.501, #444), to(#393939));
+  x-background-image: -webkit-gradient(linear, left top, left bottom, from(#aaa), color-stop(0.05, #000), color-stop(0.5, #555), color-stop(0.501, #444), to(#393939));
 }
 
 #select_timezones_button {
